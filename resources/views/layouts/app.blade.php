@@ -20,8 +20,10 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                <a class="navbar-brand d-flex" href="{{ url('/') }}" >
+{{--                    {{ config('app.name', 'Laravel') }}--}}
+                        <div><img src="{{ asset('svg/logo.svg') }}"  alt="SVG File" style="height: 50px" class="px-3"></div>
+                        <div class="pl-3">D-Instagram</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
