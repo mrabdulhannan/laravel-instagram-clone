@@ -24,8 +24,17 @@
                 <a href="#">www.freecodecamp.org</a>
             </div>
         </div>
-
     </div>
-
+    <div class="row pt-4">
+        <div class="col-4">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-512.png" class="w-100"/>
+        </div>
+        <div class="col-4">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-512.png" class="w-100"/>
+        </div>
+        <div class="col-4">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-square2-512.png" class="w-100"/>
+        </div>
+    </div>
 </div>
 @endsection
